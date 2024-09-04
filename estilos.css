@@ -7,6 +7,7 @@ html{
     font-size: 62.5%;
 }
 body{
+    background-attachment: fixed;
     color: #333;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,11 +22,15 @@ body{
 #container h1{
     font-size: 2rem;
 }
+#cabecera #logo{
+    width: 20px;
+    vertical-align: middle;
+}
 #cabecera{
-    background: #33A;
+    background: #37488b;
     color: white;
     margin: 0;
-    padding: 0.5rem;
+    padding: 0.5rem 0 0.5rem 2rem;
     font-weight: bold;
     box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5);
 }
@@ -33,4 +38,8 @@ body{
     padding: 0 0 0 1rem;
     font-weight: normal;
     font-size: 0.8rem;
+}
+#post {
+    background: white;
+    padding: 1rem;
 }
